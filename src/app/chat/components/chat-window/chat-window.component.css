@@ -1,0 +1,27 @@
+.header {
+  padding: 10px;
+  height: 70px;
+  width: 100%;
+  background-color: #F08080;
+}
+
+.chat-window-header {
+display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #bbbbbb;
+}
+
+.header-options{
+  color: #bbbbbb;
+  cursor: pointer;
+}
+
+.chat-window {
+
+}
+.header-chat{
+  display: block;
+  background-color: #00acc1;
+  width: 100%;
+}

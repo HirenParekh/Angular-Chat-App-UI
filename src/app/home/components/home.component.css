@@ -1,0 +1,96 @@
+.wrapper {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.chat-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  min-width: 250px;
+  max-width: 30%;
+  background-color: #00b0ff;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.chat-window {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.chat-window-container {
+  width: 100%;
+  background-color: #00c853;
+  flex: 1;
+}
+
+.user-profile-container {
+  position: absolute;
+  background-color: #b5b5ff;
+  height: 100%;
+  width: 100%;
+  min-width: 250px;
+  max-width: 30%;
+  overflow: hidden;
+  left: -50%;
+  transition: 0.2s;
+}
+
+.user-profile-container.active {
+  left: 0;
+}
+
+.contact-profile-container {
+  background-color: #b5b5ff;
+  height: 100%;
+  overflow: hidden;
+  right: -50%;
+  transition: 0.2s;
+  flex: 0;
+}
+
+.contact-profile-container.active {
+  right: 0;
+  flex: 0.8;
+}
+
+@media screen and (max-width: 800px) {
+  .chat-list-container {
+    width: 0;
+    min-width: 0;
+    max-width: 0;
+  }
+
+  .user-profile-container {
+    width: 0;
+    min-width: 0;
+    max-width: 0;
+  }
+
+  .user-profile-container.active {
+    width: 0;
+    min-width: 0;
+    max-width: 0;
+  }
+}
