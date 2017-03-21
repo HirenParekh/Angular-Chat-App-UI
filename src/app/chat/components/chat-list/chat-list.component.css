@@ -1,7 +1,8 @@
 .header {
   height: 70px;
   width: 100%;
-  background-color: #F08080;
+  background-color: #e2e2e2;
+  box-shadow: 0 0 4px 0 grey;
 }
 
 .chat-list-header {
@@ -10,12 +11,12 @@
   justify-content: space-between;
   min-width: 250px;
   padding: 10px;
-  border-right: 1px solid #ff9b9b;
+  border-right: 1px solid #CCCCCC;
 }
 
 .chat-list {
   min-width: 250px;
-  background-color: #dea89f;
+  /*background-color: #dea89f;*/
   flex: 1;
   overflow-y: scroll;
 }
@@ -23,7 +24,7 @@
 .chat{
   display: block;
   width: 100%;
-  background-color: #cacaca;
+  /*background-color: #cacaca;*/
   border-bottom: 1px solid #dddddd;
 }
 

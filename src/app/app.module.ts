@@ -12,6 +12,7 @@ import {ChatWindowComponent} from "./chat/components/chat-window/chat-window.com
 import {SingleChatComponent} from "./chat/components/single-chat/single-chat.component";
 import {UserProfileComponent} from "./chat/components/user-profile/user-profile.component";
 import {ContactProfileComponent} from "./chat/components/contact-profile/contact-profile.component";
+import {SimpleMsgComponent} from "./messages/components/simple-msg/simple-msg.component";
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {ContactProfileComponent} from "./chat/components/contact-profile/contact
     ChatWindowComponent,
     SingleChatComponent,
     UserProfileComponent,
-    ContactProfileComponent
+    ContactProfileComponent,
+    SimpleMsgComponent
   ],
   imports: [
     BrowserModule,

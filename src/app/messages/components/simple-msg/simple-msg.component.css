@@ -1,0 +1,34 @@
+:host {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.msg-data {
+  display: inline-block;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  word-wrap: break-word;
+  color: #262626;
+  box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+  white-space: pre-wrap;
+  max-width: 70%;
+}
+
+.message-in {
+  background-color: #ffffff;
+  align-self: flex-start;
+}
+
+.message-out {
+  background-color: #dcf8c6;
+  align-self: flex-end;
+}
